@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Front-end test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-content">
+                <a href="#"><img src="img/logo.png" alt="Logo"></a> 
+                <span>Цены и варианты защиты</span>
+            </div>
+        </header>
+        <main role="main" class="main">
+
+            <div class="car-class-main">
+                <a href="javascript: void(0)"><div class="car-class" id="class-mini">
+                    <div class="upper-title">класс mini*</div>
+                    <img src="img/ситроен/чистый.jpg" alt="citroen">
+                    <div class="lower-title">рассчитать стоимость</div>
+                </div></a> 
+                <a href="javascript: void(0)"><div class="car-class" id="class-middle">
+                    <div class="upper-title">средний класс *</div>
+                    <img src="img/мазда/чистая.jpg" alt="mazda">
+                    <div class="lower-title">рассчитать стоимость</div>
+                </div></a>
+                <a href="javascript: void(0)"><div class="car-class" id="class-premium">
+                    <div class="upper-title">премиум класс*</div>
+                    <img src="img/мерседес/чистый.jpg" alt="mercedes">
+                    <div class="lower-title">рассчитать стоимость</div>
+                </div></a>
+            </div>
+            
+            <div class="car-properties">
+  
+                <div class="car-main-info">
+                    <img class="image-default" src="img/ситроен/стандарт++.jpg" alt="standart++">
+                    <div class="car-details">
+
+                    </div>
+                    <div class="price-list">
+                        <span>Цена:</span>
+                        <div class="list">
+                            <div class="price">
+                                <span>Материалы + работа</span>
+                                <span class="count">7000 руб.</span>
+                            </div>
+                            <div class="feedback">
+                                <input type="button" value="ПОЗВОНИТЕ МНЕ">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <aside>
+                        <ul class="aside-menu">
+                            <li id="minimal"><a href="javascript: void(0)">минимальный</a></li>
+                            <li id="standart"><a href="javascript: void(0)">стандарт</a></li>
+                            <li id="standart+"><a href="javascript: void(0)">стандарт+</a></li>
+                            <li id="standart++"><a href="javascript: void(0)">стандарт++</a></li>
+                            <li id="standart+++"><a href="javascript: void(0)">стандарт+++</a></li>
+                            <li id="full"><a href="javascript: void(0)">целиком</a></li>
+                            <li id="parts" class="display-submenu"><a onclick="toggle(document.getElementById('submenu'))" href="javascript: void(0)">частями</a></li>
+                                <ul id="submenu" class="aside-submenu" style="display: none;">
+                                    <li id="optics"><a href="javascript: void(0)">Оптика</a></li>
+                                    <li id="internal-thresholds"><a href="javascript: void(0)">Пороги внутренние</a></li>
+                                    <li id="external-thresholds"><a href="javascript: void(0)">Пороги наружные</a></li>
+                                    <li id="doors"><a href="javascript: void(0)">Двери (4шт)</a></li>
+                                    <li id="rear-wings"><a href="javascript: void(0)">Задние крылья</a></li>
+                                    <li id="hood"><a href="javascript: void(0)">Капот</a></li>
+                                    <li id="front-bumpe"><a href="javascript: void(0)">Передний бампер</a></li>
+                                    <li id="rear-bumper"><a href="javascript: void(0)">Задний бампер</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </aside>
+
+            </div>
+
+        </main>
+        <footer class="footer">
+
+        </footer>
+    </div>
+    <script src="js/libs/libs.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
